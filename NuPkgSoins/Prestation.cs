@@ -4,14 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace soins
+namespace Soins
 {
+    /// <summary>
+    /// classe prestation
+    /// </summary>
     public class Prestation
     {
         private string libelle;
         private DateTime dateSoin;
         private DateTime heureSoin;
         private Intervenant i_intervenant;
+
 
         public Prestation(string plibelle, DateTime pdateSoin, DateTime pheureSoin, Intervenant iUnIntervenant)
         {
