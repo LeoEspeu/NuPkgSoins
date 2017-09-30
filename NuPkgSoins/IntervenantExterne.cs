@@ -49,18 +49,30 @@ namespace Soins
         {
             get => this.spécialité;
         }
+
+        /// <summary>
+        /// Obtient adresse
+        /// </summary>
         public string Adresse
         {
-            get => adresse;
-        }
-        public string Tel
-        {
-            get => tel;
+            get => this.adresse;
         }
 
+        /// <summary>
+        /// Obtient tel
+        /// </summary>
+        public string Tel
+        {
+            get => this.tel;
+        }
+
+        /// <summary>
+        /// Retourne un intervenant externe sous la forme d'un string
+        /// </summary>
+        /// <returns>Affiche les propriétés de l'intervenant externe</returns>
         public override string ToString()
         {
-            return base.ToString() +"Spécialité: "+this.spécialité+" - adresse: "+this.adresse+" - Tel: "+this.tel;
+            return base.ToString() + "Spécialité: " + this.spécialité + " - adresse: " + this.adresse + " - Tel: " + this.tel;
         }
     }
 }
