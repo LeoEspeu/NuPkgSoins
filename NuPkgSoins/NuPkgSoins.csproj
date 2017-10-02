@@ -4,7 +4,10 @@
     <TargetFramework>net461</TargetFramework>
     <Authors>E.Léo</Authors>
     <Company>SioCorp</Company>
-    <Description>Classe du projet avec tests</Description>
+    <Description>Mise à jour des classe du projet avec passage sous stylecop</Description>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
